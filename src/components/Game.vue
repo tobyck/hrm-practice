@@ -8,6 +8,7 @@ const MODS = { Meta: .3, Control: .4, Alt: .3, Shift: .5, }
 const UNPREVENTABLE = [
 	["Control", "W"],
 	["Control", "N"],
+	["Control", "Q"],
 	["Control", "Shift", "P"],
 	["Control", "Shift", "W"]
 ]
