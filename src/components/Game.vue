@@ -6,10 +6,10 @@ const MODS = { Meta: .3, Control: .4, Alt: .3, Shift: .5, }
 
 // chords that can't be .preventDefault()'ed
 const UNPREVENTABLE = [
-	["Ctrl", "W"],
-	["Ctrl", "N"],
-	["Ctrl", "Shift", "P"],
-	["Ctrl", "Shift", "W"]
+	["Control", "W"],
+	["Control", "N"],
+	["Control", "Shift", "P"],
+	["Control", "Shift", "W"]
 ]
 
 const genChord = () => {
